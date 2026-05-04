@@ -1,9 +1,9 @@
 from fastapi import HTTPException, Path, Body, APIRouter, Depends
-from database.postgres import get_postgres
+from src.database.postgres import get_postgres
 from typing import Union, List
 from asyncpg import Pool
 from loguru import logger
-from models.sensor_models import (
+from src.models.sensor_models import (
     SensorData,
     SensorDataBatch,
     SensorCreate,
