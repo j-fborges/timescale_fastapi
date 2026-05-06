@@ -8,4 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Secrets and sensible information
 .env
+k8s/secrets.yaml
+k8s/secret.yaml
