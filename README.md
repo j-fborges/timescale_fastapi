@@ -3,6 +3,7 @@
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-green)](https://fastapi.tiangolo.com/)
 [![TimescaleDB](https://img.shields.io/badge/TimescaleDB-2.15-orange)](https://www.timescale.com/)
+[![Build and Push Docker Image](https://github.com/j-fborges/timescale-fastapi/actions/workflows/docker-build-push.yml/badge.svg)](https://github.com/j-fborges/timescale-fastapi/actions/workflows/docker-build-push.yml)
 
 High‑performance REST API for streaming, storing, and querying time‑series sensor data. Built with FastAPI, PostgreSQL + TimescaleDB extension (hypertables), containerised with Docker, and deployed to local Kubernetes (Minikube) for orchestration simulation.
 
